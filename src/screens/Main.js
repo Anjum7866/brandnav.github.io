@@ -11,14 +11,14 @@ const Main = () => {
     <div>
  <div className='row'>
        
-       <div className='column'>
+       <div className='col-6'>
       <h3 className='heading'>
         Want anything to be <br/> easy with LaslesVPN.</h3>
         <h4>Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.</h4>
        <CustomizedButtons />
        
        </div>
-       <div className='column'>
+       <div className='col-6'>
        <img className='image' src={image} alt='img'  />
        </div>
      

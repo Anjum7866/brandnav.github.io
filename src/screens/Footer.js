@@ -22,7 +22,7 @@ const Footer = () => {
         <lael>©2020LaslesVPN</lael>
         </div>
 
-        <div className='col-3' style={{marginLeft:"400px"}}>
+        <div className='col-sm-3'>
        <h4>Product</h4>
        <label>Download</label><br/>
        <label>Pricing</label><br/>

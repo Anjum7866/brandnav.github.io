@@ -14,7 +14,7 @@ const Global = () => {
     <br/><br/>
     <img className='imagefull' src={global} alt='img'  />
     <br/><br/>
-    <div className='row'>
+    <div className='rowcontainer'>
     <div className='col-2'>
     <img className='imagesmall' src={netflix} alt='img'  />
     </div>

@@ -10,7 +10,7 @@ const Customer = () => {
      <h2>Trusted by Thousands of <br/>Happy Customer</h2> 
      <h4>These are the stories of our customers who have joined us with great pleasure when using this crazy feature.</h4>
         
-    <div className='col-12' style={{marginLeft:"100px"}}>
+    <div className='col-sm-12 ' >
         <div className='col-3' >  
             <div className='container' >
                 <div className='col-12'>
@@ -22,7 +22,7 @@ const Customer = () => {
             <br/>
             </div>
         </div>
-        <div className='col-3' style={{marginLeft:"50px"}}>  
+        <div className='col-mg-3' >  
             <div className='container'>
                 <div className='col-12'>
                     <img className='imagesmallest' src={ellipseone} alt='img'  />
@@ -33,7 +33,7 @@ const Customer = () => {
                 <br/><br/>
             </div>
         </div>
-        <div className='col-3' style={{marginLeft:"50px"}}>  
+        <div className='col-mg-3' >  
             <div className='container'>
                 <div className='col-12'>
                     <img className='imagesmallest' src={ellipsetwo} alt='img'  />

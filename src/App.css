@@ -20,9 +20,6 @@ line-height: 33px;
 letter-spacing: 0em;
 text-align: left;
 }
-.column{
-  width: 50%;
-}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -35,12 +32,20 @@ text-align: left;
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%; display: flex; margin: 10px; padding: 10px;}
-.column-3{
-  width: 33.33%;
-  margin: 50px;
-  padding: 50px;
+.col-sm-3{margin-left: 400px; width: 25%;}
+.col-mg-3{margin-left: 50px; width: 25%;}
+.col-sm-12{
+  margin-left: 100px;
+  width: 100%;
+  display: flex; margin: 10px; padding: 10px;
 }
 .row{
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  display: flex;
+}
+.rowcontainer{
   padding-left: 50px;
   padding-top: 50px;
   padding-right: 50px;
@@ -86,4 +91,78 @@ text-align: left;
   border-color: #4F5665;
   background-color: #ffffff;
   border-radius: 10px;
+}
+/* Desktop & Laptops */
+@media only screen and (min-width : 1224px) {
+#content {background:#ffffff;}
+}
+
+/* Large Screen Resolution (For Bigger Monitor) */
+@media screen and (min-width : 1824px) {
+#content {background:#ffffff;}
+}
+
+/* Custom – For the web browser between 600px and 900px */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+#content {background:#ffffff;}
+}
+
+/* iPhone 5 in portrait & landscape */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+.col-6  { float: none;
+  width: 100%;
+}
+.col-3  { 
+  float: none;
+  width: 90%;
+  margin: 20px;
+}
+.col-12  { display: block !important;
+  margin-bottom: 10;
+  padding: 0;
+}
+.col-sm-3  {
+  margin-left: 20px ;
+  width: 90%;
+}
+.col-mg-3 {
+  margin-left: 20px;
+  width: 90%;
+}
+.col-sm-12{
+  margin-left: 0px ;
+  display: block !important;
+}
+.row {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  display: block !important;
+
+}
+.rowcontainer{
+  padding: 0 !important;
+  margin: 0 ! important;
+}
+.image{
+  width:250px;
+}
+.col-4 {
+  width: 33.33%;
+}
+}
+
+/* iPad mini in portrait & landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+#content {background:#ffffff;}
+}
+
+/* iPad in portrait & landscape */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+#content {background:#ffffff;}
+}
+
+/* General Smartphones (portrait and landscape) */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+#content {background:#ffffff;}
 }
